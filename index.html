@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTC Cleaning Services - Home & Office Top Notch Cleaning</title>
+    
+    <!-- Dynamic Inline Favicon derived from your logo blueprint -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230A1D37'/%3E%3Ccircle cx='50' cy='50' r='35' fill='none' stroke='%23FF9F29' stroke-width='4'/%3E%3Ctext x='50%25' y='57%25' font-family='sans-serif' font-weight='bold' font-size='24' fill='%23FFFFFF' text-anchor='middle'%3EHTC%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- SVG Logo based on flyer branding -->
+                <svg xmlns="http://w3.org" viewBox="0 0 240 60" width="180" height="45">
+                    <circle cx='30' cy='30' r='25' fill='#0A1D37'/>
+                    <circle cx='30' cy='30' r='20' fill='none' stroke='#FF9F29' stroke-width='3'/>
+                    <text x='30' y='37' font-family='sans-serif' font-weight='bold' font-size='14' fill='#FFFFFF' text-anchor='middle'>HTC</text>
+                    <text x='70' y='38' font-family='sans-serif' font-weight='bold' font-size='20' fill='#0A1D37'>HTC <tspan fill='#FF9F29'>Cleaning</tspan></text>
+                </svg>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact" class="btn-primary">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="subtitle">Home & Office Top Notch</span>
+                <h1>CLEANING SERVICES</h1>
+                <p>Top Notch Cleaning, Every Time. Your trusted partner for absolute hygiene, absolute reliability, and sparkling spaces.</p>
+                <a href="#contact" class="btn-secondary">Get a Free Quote</a>
+            </div>
+            <div class="hero-badge-container">
+                <div class="quote-card">
+                    <span class="quote-icon">“</span>
+                    <p>At HTC Cleaning Services, we don't just clean spaces — we create healthier, happier environments for you to enjoy.</p>
+                    <span class="quote-author">- HTC Management Team</span>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative flyer vector wave divider -->
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://w3.org" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,53.05,18,80.75,26.15,142.15,44.29,206.06,55.8,271.7,56.12A329.14,329.14,0,0,0,321.39,56.44Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services Matrix Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Service Features</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-wrapper">🏠</div>
+                    <h3>Domestic Cleaning</h3>
+                    <p>Meticulous attention to your home, ensuring clean, fresh, and neat living environments.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper">🏢</div>
+                    <h3>Commercial & Office</h3>
+                    <p>Reliable cleanup schedules for corporate spaces, venues, and public business sectors.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper">✨</div>
+                    <h3>Deep Cleaning</h3>
+                    <p>An intensive scrub targeting hard-to-reach spaces, detailed floor work, and appliances.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper">🛡️</div>
+                    <h3>Eco Friendly & Safe</h3>
+                    <p>DBS Checked staff operating with safe, premium, high-grade sanitization materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Ready for a Spotless Space?</h2>
+                <p>Reach out to HTC Cleaning Services today. Fill out our simple estimate sheet, or touch base instantly through our operational channels.</p>
+                <div class="info-item"><span>📞</span> 07455 652761</div>
+                <div class="info-item"><span>✉️</span> info@htccleaning.co.uk</div>
+                <div class="info-item"><span>📍</span> West Yorkshire & Beyond</div>
+            </div>
+            <div class="contact-form-container">
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="name@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceType">Service Needed</label>
+                        <select id="serviceType">
+                            <option value="domestic">Domestic Cleaning</option>
+                            <option value="commercial">Commercial & Office</option>
+                            <option value="deep">Deep Cleaning</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message Details</label>
+                        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Quote Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 HTC Cleaning Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
